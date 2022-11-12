@@ -3,6 +3,5 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "react-jsx"
   },
-  "include": ["./tsconfig-base.json"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["./tsconfig-base.json"]
 }

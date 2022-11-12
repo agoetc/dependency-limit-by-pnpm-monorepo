@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "clients.home",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "domain": "workspace:^",
+    "usecase": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8"
+  }
+}
