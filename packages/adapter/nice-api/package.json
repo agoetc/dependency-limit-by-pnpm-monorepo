@@ -1,7 +1,6 @@
 {
   "private": true,
   "name": "adapter.nice-api",
-  "version": "0.0.0",
   "dependencies": {
     "domain": "workspace:^"
   }

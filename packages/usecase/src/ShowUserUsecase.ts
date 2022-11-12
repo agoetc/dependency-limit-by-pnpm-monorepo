@@ -1,19 +1,19 @@
-import { UserRepository } from "../../adapter/nice-api/src/UserRepository";
-import { User } from "../../domain/src/User";
-import { UserId } from "../../domain/src/UserId";
+import { UserRepository } from '../../adapter/nice-api/src/UserRepository'
+import { User } from '../../domain/src/User'
+import { UserId } from '../../domain/src/UserId'
 
 export type ShowUserUsecaseRequest = {
-  userId: UserId;
-};
+  userId: UserId
+}
 
 export type ShowUserUsecaseResponce = {
-  user: User;
-};
+  user: User
+}
 
 export const ShowUserUsecase = {
   execute(req: ShowUserUsecaseRequest): ShowUserUsecaseResponce {
     return {
       user: UserRepository.find(req.userId),
-    };
+    }
   },
-};
+}
