@@ -1,6 +1,6 @@
 import { User } from "domain/src/User";
 
-function App() {
+const App = () => {
   const user: User = {
     firstName: "un",
     lastName: "ko",
