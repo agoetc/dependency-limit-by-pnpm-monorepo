@@ -4,8 +4,5 @@
   "version": "0.0.0",
   "dependencies": {
     "domain": "workspace:^"
-  },
-  "devDependencies": {
-    "typescript": "^4.6.4"
   }
 }

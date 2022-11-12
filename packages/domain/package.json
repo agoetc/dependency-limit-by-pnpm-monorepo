@@ -2,7 +2,5 @@
   "private": true,
   "name": "domain",
   "version": "0.0.0",
-  "devDependencies": {
-    "typescript": "^4.6.4"
-  }
+  "extends": "../../package-dependencies-base.json"
 }
