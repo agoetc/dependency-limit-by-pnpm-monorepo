@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "usecase",
+  "version": "0.0.0",
+  "dependencies": {
+    "domain": "workspace:^",
+    "adapter.nice-api": "workspace:^"
+
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
