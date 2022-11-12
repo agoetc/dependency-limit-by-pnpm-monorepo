@@ -1,6 +1,4 @@
-# enjoy-pnpm-monorepo
-
-## なにこれ
+# なにこれ
 typescriptでも依存の方向を制限したかった。
 
 pnpmのmonorepoを利用して、再現することができた。

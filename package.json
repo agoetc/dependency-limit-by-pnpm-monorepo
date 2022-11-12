@@ -1,5 +1,5 @@
 {
-  "name": "enjoy-pnpm-monorepo",
+  "name": "dependency-limit-by-pnpm-monorepo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
