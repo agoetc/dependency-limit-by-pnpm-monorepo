@@ -1,14 +1,9 @@
 import { VO } from './core/VO'
 
-export type UserId = VO<'UserId', number> & {
-  value: number
-}
+export type UserId = VO<number, 'UserId'>
 
 export const UserId = {
   apply(id: number): UserId {
-    return {
-      type: 'UserId',
-      value: id,
-    }
+    return id as UserId
   },
 }

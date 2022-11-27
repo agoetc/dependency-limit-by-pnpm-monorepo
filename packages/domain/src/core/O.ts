@@ -1,3 +1,1 @@
-export type O<T extends string> = {
-  type: T
-}
+export type O<U extends string> = { [key in U]: never }

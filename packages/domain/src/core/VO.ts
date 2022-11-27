@@ -1,4 +1,1 @@
-export type VO<T extends string, V> = {
-  type: T
-  value: V
-}
+export type VO<T, U extends string> = T & { [key in U]: never }
