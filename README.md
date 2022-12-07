@@ -6,7 +6,9 @@ pnpmのmonorepoを利用して、再現することができた。
 今度記事書く
 
 # アーキテクト図
-<img width="778" alt="スクリーンショット 2022-11-12 18 39 39" src="https://user-images.githubusercontent.com/24515690/201468331-7c9e1a1c-a4e5-49c8-8c6d-e75e71f90fd3.png">
+
+<img width="717" alt="スクリーンショット 2022-12-07 19 44 28" src="https://user-images.githubusercontent.com/24515690/206160156-798b3ef5-3d85-441a-a3ef-aac4dc84cba8.png">
+
 
 # 環境
 pnpm: 7.15.0
