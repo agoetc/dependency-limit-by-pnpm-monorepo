@@ -1,5 +1,7 @@
-import { UserRepository } from '../../adapter/nice-api/src/UserRepository'
-import { User } from '../../domain/src/User'
+import { GreatRepository } from '../../adapter/great-api/src/GreatRepository'
+import { NiceRepository } from '../../adapter/nice-api/src/NiceRepository'
+import { Great } from '../../domain/src/Great'
+import { Nice } from '../../domain/src/Nice'
 import { UserId } from '../../domain/src/UserId'
 
 export type ShowUserUsecaseRequest = {
@@ -7,13 +9,15 @@ export type ShowUserUsecaseRequest = {
 }
 
 export type ShowUserUsecaseResponce = {
-  user: User
+  great: Great
+  nice: Nice
 }
 
 export const ShowUserUsecase = {
   execute(req: ShowUserUsecaseRequest): ShowUserUsecaseResponce {
     return {
-      user: UserRepository.find(req.userId),
+      great: GreatRepository.find(req.userId),
+      nice: NiceRepository.find(req.userId),
     }
   },
 }
