@@ -1,8 +1,8 @@
-import { GreatRepository } from '../../adapter/great-api/src/GreatRepository'
-import { NiceRepository } from '../../adapter/nice-api/src/NiceRepository'
-import { Great } from '../../domain/src/Great'
-import { Nice } from '../../domain/src/Nice'
-import { UserId } from '../../domain/src/UserId'
+import { GreatRepository } from 'adapter.great-api/src/GreatRepository'
+import { NiceRepository } from 'adapter.nice-api/src/NiceRepository'
+import { Great } from 'domain/src/Great'
+import { Nice } from 'domain/src/Nice'
+import { UserId } from 'domain/src/UserId'
 
 export type ShowUserUsecaseRequest = {
   userId: UserId

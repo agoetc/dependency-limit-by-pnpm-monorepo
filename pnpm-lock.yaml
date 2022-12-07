@@ -46,6 +46,15 @@ importers:
       '@types/react-dom': 18.0.8
       typescript: 4.8.4
 
+  packages/adapter/great-api:
+    specifiers:
+      domain: workspace:^
+      typescript: ^4.7.4
+    dependencies:
+      domain: link:../../domain
+    devDependencies:
+      typescript: 4.8.4
+
   packages/adapter/nice-api:
     specifiers:
       domain: workspace:^
@@ -63,10 +72,12 @@ importers:
 
   packages/usecase:
     specifiers:
+      adapter.great-api: workspace:^
       adapter.nice-api: workspace:^
       domain: workspace:^
       typescript: ^4.7.4
     dependencies:
+      adapter.great-api: link:../adapter/great-api
       adapter.nice-api: link:../adapter/nice-api
       domain: link:../domain
     devDependencies:

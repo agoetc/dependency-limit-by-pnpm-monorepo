@@ -3,6 +3,7 @@
   "name": "usecase",
   "dependencies": {
     "domain": "workspace:^",
+    "adapter.great-api": "workspace:^",
     "adapter.nice-api": "workspace:^"
   }
 }
