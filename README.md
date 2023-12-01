@@ -3,7 +3,7 @@ typescriptでも依存の方向を制限したかった。
 
 pnpmのmonorepoを利用して、再現することができた。
 
-今度記事書く
+https://zenn.dev/tttyya/articles/b39848f291d610
 
 # アーキテクト図
 
